@@ -1,0 +1,427 @@
+// SizedBox(
+                //   height: 10,
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Kompresor Terlalu Dingin',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Kompresor Terlalu Panas',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Kompresor Cycling',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Kompresor Bekerja Terus Menerus',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Kompresor Tidak Mau Bekerja',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Temperatur saluran discharge terlalu rendah',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Temperatur pipa discharge terlalu tinggi',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Suara ketukan',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Oli mendidih selama pengoperasian',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Oli mendidih saat start',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Oli berubah warna',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Level oli di crankcase terlalu tinggi',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Level oli di crankcase terlalu rendah',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Temperatur gas suction terlalu tinggi',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Temperatur gas suction terlalu rendah',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Tekanan suction tidak menentu',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Tekanan suction terlalu tinggi',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // InkWell(
+                //   onTap: () {},
+                //   child: Card(
+                //     margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+                //     shape: RoundedRectangleBorder(
+                //       borderRadius: BorderRadius.circular(20),
+                //     ),
+                //     color: Color(0xff7b7574),
+                //     child: Container(
+                //       padding: EdgeInsets.all(20),
+                //       child: Text(
+                //         'Tekanan suction terlalu rendah',
+                //         style: TextStyle(
+                //           fontSize: 18,
+                //           fontWeight: FontWeight.bold,
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+                // SizedBox(
+                //   height: 20,
+                // )
+
+
+
+
+body: Container(
+          child: ListView.builder(
+            shrinkWrap: true,
+            itemCount: dataKompresor.length,
+            itemBuilder: (context, masalah) {
+              return ExpansionTile(
+                title: Text(
+                  dataKompresor[masalah].title,
+                  style: TextStyle(
+                    fontSize: 20,
+                  ),
+                ),
+                children: [
+                  Container(
+                    child: ListView.builder(
+                        shrinkWrap: true,
+                        itemCount: dataKompresor[masalah].tiles.length,
+                        itemBuilder: (context, penyebab) {
+                          return ExpansionTile(
+                            title: Text(
+                              dataKompresor[masalah].tiles[penyebab].title,
+                              style: TextStyle(
+                                fontSize: 20,
+                              ),
+                            ),
+                            children: [
+                              Container(
+                                child: ListView.builder(
+                                    shrinkWrap: true,
+                                    itemCount: dataKompresor[masalah]
+                                        .tiles[penyebab]
+                                        .tiles
+                                        .length,
+                                    itemBuilder: (context, solusi) {
+                                      return ListTile(
+                                        title: Text(
+                                          dataKompresor[masalah]
+                                              .tiles[penyebab]
+                                              .tiles[solusi]
+                                              .title,
+                                          style: TextStyle(
+                                            fontSize: 20,
+                                            // color: Colors.cyan
+                                          ),
+                                        ),
+                                      );
+                                    }),
+                              )
+                            ],
+                          );
+                        }),
+                  )
+                ],
+              );
+            },
+          ),
+        ),
