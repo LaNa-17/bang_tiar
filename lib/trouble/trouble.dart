@@ -1,4 +1,4 @@
-import 'package:bang_tiar/trouble/kompresor/kompresor.dart';
+import 'package:bang_tiar/trouble/kompresor/masalahKompresor.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
@@ -99,13 +99,13 @@ class _TroublePageState extends State<TroublePage> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => KompresorPage()),
+                            builder: (context) => MasalahKompresorPage()),
                       );
                     } else if (index == 0) {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => KompresorPage()),
+                            builder: (context) => MasalahKompresorPage()),
                       );
                     }
                   },
