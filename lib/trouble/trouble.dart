@@ -1,4 +1,6 @@
+import 'package:bang_tiar/trouble/alat_ekspansi/masalahEkspansi.dart';
 import 'package:bang_tiar/trouble/kompresor/masalahKompresor.dart';
+import 'package:bang_tiar/trouble/evaporator/masalahEvaporator.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
@@ -75,7 +77,7 @@ class _TroublePageState extends State<TroublePage> {
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 70,
-        title: Text('TROUBLESHOOTING'),
+        title: Text('Troubleshooting'),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(
             bottom: Radius.circular(25),
@@ -101,11 +103,23 @@ class _TroublePageState extends State<TroublePage> {
                         MaterialPageRoute(
                             builder: (context) => MasalahKompresorPage()),
                       );
-                    } else if (index == 0) {
+                    } else if (index == 1) {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (context) => MasalahKompresorPage()),
+                      );
+                    } else if (index == 2) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => MasalahEkspansiPage()),
+                      );
+                    } else if (index == 3) {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => MasalahEvaporatorPage()),
                       );
                     }
                   },

@@ -1,13 +1,12 @@
-import 'package:bang_tiar/data/dataKompresor.dart';
-import 'package:bang_tiar/trouble/kompresor/PenyebabKompresor.dart';
-import 'package:bang_tiar/trouble/kompresor/solusiKompresor.dart';
+import 'package:bang_tiar/data/dataEvaporator.dart';
+import 'package:bang_tiar/trouble/evaporator/PenyebabEvaporator.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
 
-class MasalahKompresorPage extends StatelessWidget {
-  const MasalahKompresorPage({super.key});
+class MasalahEvaporatorPage extends StatelessWidget {
+  const MasalahEvaporatorPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,15 +15,15 @@ class MasalahKompresorPage extends StatelessWidget {
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return <Widget>[
             SliverAppBar(
-              // title: Text('Kompresor'),
+              // title: Text('Evaporator'),
               expandedHeight: 300,
               pinned: true,
               floating: true,
               // backgroundColor: Colors.grey,
               flexibleSpace: FlexibleSpaceBar(
-                title: Text('Kompresor'),
+                title: Text('Evaporator'),
                 background: Image.asset(
-                  'assets/kompresor.png',
+                  'assets/kondensor.png',
                   // fit: BoxFit.cover,
                 ),
               ),
@@ -34,14 +33,14 @@ class MasalahKompresorPage extends StatelessWidget {
         body: Container(
           child: ListView.builder(
             shrinkWrap: true,
-            itemCount: dataKompresor.length,
+            itemCount: dataEvaporator.length,
             itemBuilder: (context, masalah) {
               return InkWell(
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => PenyebabKompresorPage(
+                      builder: (context) => PenyebabEvaporatorPage(
                         masalah: masalah,
                       ),
                     ),
@@ -56,7 +55,7 @@ class MasalahKompresorPage extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.all(15),
                     child: Text(
-                      dataKompresor[masalah].title,
+                      dataEvaporator[masalah].title,
                       style: TextStyle(
                         fontSize: 20,
                       ),
@@ -68,22 +67,8 @@ class MasalahKompresorPage extends StatelessWidget {
           ),
         ),
         // body: ListView(
-        //   children: dataKompresor.map(buildTile).toList(),
+        //   children: dataEvaporator.map(buildTile).toList(),
         // ),
-      ),
-    );
-  }
-
-  Widget buildTile(DataKompresor tile) {
-    return Card(
-      // margin: EdgeInsets.only(top: 15, right: 15, left: 15),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(20),
-      ),
-      color: Color(0xff7b7574),
-      child: ExpansionTile(
-        title: Text(tile.title),
-        children: tile.tiles.map((tile) => buildTile(tile)).toList(),
       ),
     );
   }

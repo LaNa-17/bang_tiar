@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:bang_tiar/data/dataKompresor.dart';
+import 'package:bang_tiar/data/dataEvaporator.dart';
 
-class SolusiKompresorPage extends StatelessWidget {
+class SolusiEvaporatorPage extends StatelessWidget {
   final int masalah, penyebab;
-  const SolusiKompresorPage(
+  const SolusiEvaporatorPage(
       {required this.masalah, required this.penyebab, super.key});
 
   @override
@@ -23,7 +23,7 @@ class SolusiKompresorPage extends StatelessWidget {
       body: Container(
         child: ListView.builder(
           shrinkWrap: true,
-          itemCount: dataKompresor[masalah].tiles[penyebab].tiles.length,
+          itemCount: dataEvaporator[masalah].tiles[penyebab].tiles.length,
           itemBuilder: (context, solusi) {
             return InkWell(
               onTap: () {},
@@ -41,7 +41,7 @@ class SolusiKompresorPage extends StatelessWidget {
                     child: Container(
                       padding: EdgeInsets.all(15),
                       child: Text(
-                        dataKompresor[masalah]
+                        dataEvaporator[masalah]
                             .tiles[penyebab]
                             .tiles[solusi]
                             .title,

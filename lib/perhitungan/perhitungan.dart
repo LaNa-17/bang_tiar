@@ -12,7 +12,7 @@ class PerhitunganPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 70,
-        title: Text('PERHITUNGAN'),
+        title: Text('Perhitungan'),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(
             bottom: Radius.circular(25),

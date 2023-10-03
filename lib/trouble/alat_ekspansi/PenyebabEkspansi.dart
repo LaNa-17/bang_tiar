@@ -1,12 +1,12 @@
-import 'package:bang_tiar/trouble/kompresor/solusiKompresor.dart';
+import 'package:bang_tiar/trouble/alat_ekspansi/solusiEkspansi.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
-import 'package:bang_tiar/data/dataKompresor.dart';
+import 'package:bang_tiar/data/dataEkspansi.dart';
 
-class PenyebabKompresorPage extends StatelessWidget {
+class PenyebabEkspansiPage extends StatelessWidget {
   final int masalah;
-  const PenyebabKompresorPage({required this.masalah, super.key});
+  const PenyebabEkspansiPage({required this.masalah, super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -23,14 +23,14 @@ class PenyebabKompresorPage extends StatelessWidget {
       body: Container(
         child: ListView.builder(
           shrinkWrap: true,
-          itemCount: dataKompresor[masalah].tiles.length,
+          itemCount: dataEkspansi[masalah].tiles.length,
           itemBuilder: (context, penyebab) {
             return InkWell(
               onTap: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => SolusiKompresorPage(
+                    builder: (context) => SolusiEkspansiPage(
                       masalah: masalah,
                       penyebab: penyebab,
                     ),
@@ -53,7 +53,7 @@ class PenyebabKompresorPage extends StatelessWidget {
                       child: Container(
                         padding: EdgeInsets.all(15),
                         child: Text(
-                          dataKompresor[masalah].tiles[penyebab].title,
+                          dataEkspansi[masalah].tiles[penyebab].title,
                           style: TextStyle(
                             fontSize: 20,
                           ),
