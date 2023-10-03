@@ -1,19 +1,19 @@
-import 'package:flutter/material.dart';
+import 'package:bang_tiar/trouble/kondensor/solusiKondensor.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:bang_tiar/data/dataKompresor.dart';
+import 'package:flutter/material.dart';
+import 'package:bang_tiar/data/dataKondensor.dart';
 
-class SolusiKompresorPage extends StatelessWidget {
-  final int masalah, penyebab;
-  const SolusiKompresorPage(
-      {required this.masalah, required this.penyebab, super.key});
+class PenyebabKondensorPage extends StatelessWidget {
+  final int masalah;
+  const PenyebabKondensorPage({required this.masalah, super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 70,
-        title: Text('Solusi'),
+        title: Text('Penyebab Masalah'),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(
             bottom: Radius.circular(25),
@@ -23,10 +23,20 @@ class SolusiKompresorPage extends StatelessWidget {
       body: Container(
         child: ListView.builder(
           shrinkWrap: true,
-          itemCount: dataKompresor[masalah].tiles[penyebab].tiles.length,
-          itemBuilder: (context, solusi) {
+          itemCount: dataKondensor[masalah].tiles.length,
+          itemBuilder: (context, penyebab) {
             return InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => SolusiKondensorPage(
+                      masalah: masalah,
+                      penyebab: penyebab,
+                    ),
+                  ),
+                );
+              },
               child: Column(
                 children: [
                   SizedBox(
@@ -43,10 +53,7 @@ class SolusiKompresorPage extends StatelessWidget {
                       child: Container(
                         padding: EdgeInsets.all(15),
                         child: Text(
-                          dataKompresor[masalah]
-                              .tiles[penyebab]
-                              .tiles[solusi]
-                              .title,
+                          dataKondensor[masalah].tiles[penyebab].title,
                           style: TextStyle(
                             fontSize: 20,
                           ),

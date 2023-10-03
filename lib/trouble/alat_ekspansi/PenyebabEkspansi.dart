@@ -27,15 +27,15 @@ class PenyebabEkspansiPage extends StatelessWidget {
           itemBuilder: (context, penyebab) {
             return InkWell(
               onTap: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => SolusiEkspansiPage(
-                      masalah: masalah,
-                      penyebab: penyebab,
-                    ),
-                  ),
-                );
+                // Navigator.push(
+                //   context,
+                //   MaterialPageRoute(
+                //     builder: (context) => SolusiEkspansiPage(
+                //       masalah: masalah,
+                //       penyebab: penyebab,
+                //     ),
+                //   ),
+                // );
               },
               child: Column(
                 children: [

@@ -69,7 +69,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Bersihkan kondensor. Periksa apakah kipas kondensor bekerja (kondensor berpendingin udara) atau pompa bekerja (kondensor berpendingin air). Jika tidak, ganti '),
-          DataKompresor(title: 'Pemutusan melalui kontrol tekanan tinggi'),
         ],
       ),
       DataKompresor(
@@ -78,7 +77,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Ganti Kontrol tekanan tinggi KP 5/7 atau kontrol tekanan gabungan KP 15/17'),
-          DataKompresor(title: 'Pemutusan melalui kontrol tekanan tinggi'),
         ],
       ),
       DataKompresor(
@@ -87,7 +85,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Dengan menggunakan pressure gauge, atur pressure control pada nilai yang benar. Hindari kompresor cycling dengan menggunakan high-pressure control dengan reset manual.'),
-          DataKompresor(title: 'Pemutusan melalui kontrol tekanan tinggi'),
         ],
       ),
       DataKompresor(
@@ -97,7 +94,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Tetapkan pengaturan kapasitas dengan menggunakan katup pengatur kapasitas KVC atau kompresor berpasangan paralel.'),
-          DataKompresor(title: 'Pemutusan melalui kontrol tekanan rendah'),
         ],
       ),
       DataKompresor(
@@ -105,7 +101,6 @@ final dataKompresor = <DataKompresor>[
         tiles: [
           DataKompresor(
               title: 'Ganti kompresor dengan ukuran yang lebih kecil'),
-          DataKompresor(title: 'Pemutusan melalui kontrol tekanan rendah'),
         ],
       ),
       DataKompresor(
@@ -115,7 +110,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Dengan menggunakan pressure gauge, atur regulator KVP pada nilai yang benar.'),
-          DataKompresor(title: 'Pemutusan melalui kontrol tekanan rendah'),
         ],
       ),
     ],
@@ -127,7 +121,6 @@ final dataKompresor = <DataKompresor>[
         title: 'katup suction dan discharge kompresor bocor',
         tiles: [
           DataKompresor(title: 'Ganti pelat katup atau kompresor'),
-          DataKompresor(title: 'Tekanan Suctin terlalu tinggi'),
         ],
       ),
       DataKompresor(
@@ -137,7 +130,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Rekomendasikan beban yang lebih rendah, atau ganti kompresor dengan ukuran yang lebih besar.'),
-          DataKompresor(title: 'Tekanan Suctin terlalu tinggi'),
         ],
       ),
       DataKompresor(
@@ -146,7 +138,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Ubah kontrol tekanan rendah ke nilai yang lebih tinggi/ ganti kontrol tekanan,'),
-          DataKompresor(title: 'Tekanan Suctin terlalu rendah'),
         ],
       )
     ],
@@ -196,7 +187,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Bersihkan sistem dan pasang filter pengering baru dan kompresor baru'),
-          DataKompresor(title: 'Seizing bantalan atau silinder'),
         ],
       ),
       DataKompresor(
@@ -206,7 +196,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Bersihkan sistem dan pasang filter pengering baru dan kompresor baru'),
-          DataKompresor(title: 'Seizing bantalan atau silinder'),
         ],
       ),
       DataKompresor(
@@ -215,14 +204,12 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Temukan dan atasi penyebab kelebihan beban motor, periksa kembali tempat kontaktor'),
-          DataKompresor(title: 'Kontaktor pada starter motor terbakar'),
         ],
       ),
       DataKompresor(
         title: 'Kontaktor berukuran kecil',
         tiles: [
           DataKompresor(title: 'Ganti kontraktor dengan ukuran lebih besar'),
-          DataKompresor(title: 'Kontaktor pada starter motor terbakar'),
         ],
       ),
       DataKompresor(
@@ -231,7 +218,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Temukan dan perbaiki penyebab kelebihan beban, ganti kompresor,'),
-          DataKompresor(title: 'Kompresor hermetik atau semi hermetik'),
         ],
       ),
       DataKompresor(
@@ -240,21 +226,18 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Temukan dan atasi penyebab terbentuknya asam, lepas kompresor, bersihkan sistem zat pendingin bila perlu, pasang filter "burn-out" yang baru, isi ulang dengan oli dan zat pendingin, pasang kompresor baru'),
-          DataKompresor(title: 'Kompresor hermetik atau semi hermetik'),
         ],
       ),
       DataKompresor(
         title: 'Pompa oli rusak',
         tiles: [
           DataKompresor(title: 'Ganti pompa/kompresor lama'),
-          DataKompresor(title: 'Pelumasan tidak mencukupi atau tidak ada'),
         ],
       ),
       DataKompresor(
         title: 'Oli mendidih di bak mesin',
         tiles: [
           DataKompresor(title: 'Gunakan crankcase heater atau pompa'),
-          DataKompresor(title: 'Pelumasan tidak mencukupi atau tidak ada'),
         ],
       ),
       DataKompresor(
@@ -263,7 +246,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Tambahkan oli melalui gauge, buat ruang hampa di bak mesin dan biarkan minyak tersedot ke dalam kompresor.'),
-          DataKompresor(title: 'Pelumasan tidak mencukupi atau tidak ada'),
         ],
       ),
       DataKompresor(
@@ -272,7 +254,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Ratakan evaporator dan hindari semua jebakan. Tambahkan perangkap-u setiap 3m jika garis hisap memanjang lurus ke atas.'),
-          DataKompresor(title: 'Pelumasan tidak mencukupi atau tidak ada'),
         ],
       ),
       DataKompresor(
@@ -282,7 +263,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Tambahkan semua pemerataan ke sistem - gunakan katup bola untuk penurunan tekanan minimum di saluran pemerataan,'),
-          DataKompresor(title: 'Pelumasan tidak mencukupi atau tidak ada'),
         ],
       ),
       DataKompresor(
@@ -291,14 +271,12 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Temukan dan atasi penyebab kelebihan beban, ganti motor.'),
-          DataKompresor(title: 'Buka Kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Motor berukuran kecil',
         tiles: [
           DataKompresor(title: 'Ganti motor dengan ukuran lebih besar'),
-          DataKompresor(title: 'Buka Kompresor'),
         ],
       ),
       DataKompresor(
@@ -307,27 +285,18 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Periksa semua diferensial dengan pengukur tekanan- baca tekanan isap dan baca tekanan pada pompa semua- jika tekanan diferensial baik-baik saja (diferensial min. 1 bar) lalu ganti semua kontrol diferensial. Jika tidak, ganti kompresor,'),
-          DataKompresor(
-              title:
-                  'Peralatan keselamatan lainnya rusak, tidak terpasang dengan benar, atau rusak'),
         ],
       ),
       DataKompresor(
         title: 'Kontrol tekanan tinggi ',
         tiles: [
           DataKompresor(title: 'Lihat ("Tekanan kondensasi terlalu tinggi").'),
-          DataKompresor(
-              title:
-                  'Peralatan keselamatan lainnya rusak, tidak terpasang dengan benar, atau rusak'),
         ],
       ),
       DataKompresor(
         title: 'Kontrol tekanan rendah',
         tiles: [
           DataKompresor(title: 'Lihat ("Tekanan kondensasi terlalu rendah").'),
-          DataKompresor(
-              title:
-                  'Peralatan keselamatan lainnya rusak, tidak terpasang dengan benar, atau rusak'),
         ],
       ),
       DataKompresor(
@@ -337,9 +306,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Temukan dan perbaiki penyebab berkurangnya atau tidak adanya aliran di sirkuit air garam. Lihat (“Pendingin cair”).'),
-          DataKompresor(
-              title:
-                  'Peralatan keselamatan lainnya rusak, tidak terpasang dengan benar, atau rusak'),
         ],
       ),
       DataKompresor(
@@ -349,9 +315,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Temukan dan atasi penyebab suhu yang terlalu rendah dalam aliran air garam, Lihat ("Pendingin cair"),'),
-          DataKompresor(
-              title:
-                  'Peralatan keselamatan lainnya rusak, tidak terpasang dengan benar, atau rusak'),
         ],
       ),
       DataKompresor(
@@ -367,9 +330,6 @@ final dataKompresor = <DataKompresor>[
         title: 'Tekanan hisap berlebihan',
         tiles: [
           DataKompresor(title: 'Pasang pengatur tekanan bak mesin KVL.'),
-          DataKompresor(
-              title:
-                  'Perlindungan termal pada starter motor keluar atau rusak'),
         ],
       ),
       DataKompresor(
@@ -378,18 +338,12 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Bersihkan kondensor. Periksa apakah kipas kondensor bekerja (kondensor berpendingin udara) atau pompa bekerja (kondensor berpendingin air). Jika tidak, ganti kipas/pompa.'),
-          DataKompresor(
-              title:
-                  'Perlindungan termal pada starter motor keluar atau rusak'),
         ],
       ),
       DataKompresor(
         title: 'Tegangan suplai terlalu rendah',
         tiles: [
           DataKompresor(title: 'Hubungi PLN'),
-          DataKompresor(
-              title:
-                  'Perlindungan termal pada starter motor keluar atau rusak'),
         ],
       ),
       DataKompresor(
@@ -398,9 +352,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Temukan dan perbaiki kesalahan (sekring yang sering putus)'),
-          DataKompresor(
-              title:
-                  'Perlindungan termal pada starter motor keluar atau rusak'),
         ],
       ),
       DataKompresor(
@@ -409,9 +360,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Bersihkan sistem pendingin jika perlu, ganti kompresor dan filter drier.'),
-          DataKompresor(
-              title:
-                  'Perlindungan termal pada starter motor keluar atau rusak'),
         ],
       ),
     ],
@@ -469,7 +417,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Atur katup ekspansi termostatik untuk superheat menggunakan metode MSS'),
-          DataKompresor(title: 'Konstan atau selama start'),
         ],
       ),
       DataKompresor(
@@ -478,7 +425,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Pasang elemen pemanas di dalam atau di bawah bak mesin kompresor.'),
-          DataKompresor(title: 'Konstan atau selama start'),
         ],
       ),
       DataKompresor(
@@ -486,7 +432,6 @@ final dataKompresor = <DataKompresor>[
             'Keausan pada bagian kompresor yang bergerak, terutama bantalan.',
         tiles: [
           DataKompresor(title: 'Perbaiki atau ganti kompresor'),
-          DataKompresor(title: 'Konstan atau selama start'),
         ],
       )
     ],
@@ -612,7 +557,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Ubah ukuran pipa penyeimbang atau sesuaikan sistem pengelolaan oli elektronik.'),
-          DataKompresor(title: 'Kompresor dipasang secara paralel'),
         ],
       ),
       DataKompresor(
@@ -622,7 +566,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Bersihkan wadah yang rata atau ganti dengan katup pelampung, atau sistem manajemen oli elektronik'),
-          DataKompresor(title: 'Kompresor dipasang secara paralel'),
         ],
       ),
       DataKompresor(
@@ -632,7 +575,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Bersihkan atau ganti pipa balik atau ganti katup pelampung atau oil separator'),
-          DataKompresor(title: 'Kompresor dipasang secara paralel'),
         ],
       ),
       DataKompresor(
@@ -641,7 +583,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Dalam semua keadaan: kompresor yang dihidupkan terakhir paling rentan terhadap kekurangan minyak.'),
-          DataKompresor(title: 'Sirkuit multi-kompresor'),
         ],
       ),
       DataKompresor(
@@ -650,7 +591,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Sejajarkan kompresor sehingga berada pada bidang horizontal yang sama. Pasang pipa penyeimbang yang lebih besar'),
-          DataKompresor(title: 'Sirkuit multi-kompresor'),
         ],
       ),
       DataKompresor(
@@ -658,8 +598,6 @@ final dataKompresor = <DataKompresor>[
         tiles: [
           DataKompresor(
               title: 'Ganti dengan saluran hisap berdiameter lebih kecil.'),
-          DataKompresor(
-              title: 'Pengembalian minyak yang buruk dari evaporator'),
         ],
       ),
       DataKompresor(
@@ -668,7 +606,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Isilah oli sampai ketinggian yang benar, namun pertama-tama pastikan bahwa jumlah oli di dalam kotak engkol bukan akibat pengumpulan oli di evaporator. Pasang perangkap pada jarak 1,2 m hingga 1,5 m dari garis hisap vertikal. Jika suplai cairan berada di bagian bawah evaporator, maka perlu menukar tabung masuk dan keluar (pasokan cairan paling atas).'),
-          DataKompresor(title: 'Kompresor tunggal'),
         ],
       ),
       DataKompresor(
@@ -677,7 +614,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Isilah oli sampai ketinggian yang benar, namun pertama-tama pastikan bahwa jumlah oli di dalam kotak engkol bukan akibat pengumpulan oli di evaporator. Pasang perangkap pada jarak 1,2 m hingga 1,5 m dari garis hisap vertikal. Jika suplai cairan berada di bagian bawah evaporator, maka perlu menukar tabung masuk dan keluar (pasokan cairan paling atas).'),
-          DataKompresor(title: 'Kompresor tunggal'),
         ],
       ),
     ],
@@ -753,14 +689,12 @@ final dataKompresor = <DataKompresor>[
         title: 'Kompresor terlalu kecil',
         tiles: [
           DataKompresor(title: 'Ganti kompresor yang lebih besar'),
-          DataKompresor(title: 'Temperatur gas suction normal'),
         ],
       ),
       DataKompresor(
         title: 'Satu atau lebih katup cakram kompresor bocor',
         tiles: [
           DataKompresor(title: 'Ganti pelat katup atau kompresor.'),
-          DataKompresor(title: 'Temperatur gas suction normal'),
         ],
       ),
       DataKompresor(
@@ -768,7 +702,6 @@ final dataKompresor = <DataKompresor>[
         tiles: [
           DataKompresor(
               title: 'Ganti, perbaiki atau sesuaikan pengaturan kapasitas.'),
-          DataKompresor(title: 'Temperatur gas suction normal'),
         ],
       ),
       DataKompresor(
@@ -777,14 +710,12 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Merekomendasikan beban yang lebih sedikit atau mengganti kompresor dengan ukuran yang lebih besar, atau memasang pengatur tekanan bak mesin KVL'),
-          DataKompresor(title: 'Temperatur gas suction normal'),
         ],
       ),
       DataKompresor(
         title: 'Katup hot gas defrost bocor',
         tiles: [
           DataKompresor(title: 'Ganti katup '),
-          DataKompresor(title: 'Temperatur gas suction normal'),
         ],
       ),
       DataKompresor(
@@ -793,7 +724,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Ganti pengatur kapasitas. Atur pengatur kapasitas pada tekanan yang lebih rendah. Ingatlah untuk memasang tutup pelindung setelah pengaturan akhir,'),
-          DataKompresor(title: 'Temperatur gas suction normal'),
         ],
       ),
       DataKompresor(
@@ -803,14 +733,12 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Atur katup ekspansi termostatik ke pengaturan tertinggi yang lebih tinggi dan periksa lokasi bohlam katup ekspansi (setelah evaporator, semua pipa kolektor dan di depan pemerataan tekanan eksternal),'),
-          DataKompresor(title: 'Temperatur gas suction terlalu rendah'),
         ],
       ),
       DataKompresor(
         title: 'Lubang katup ekspansi termostatik terlalu besar',
         tiles: [
           DataKompresor(title: 'Ganti lubang dengan ukuran yang lebih kecil.'),
-          DataKompresor(title: 'Temperatur gas suction terlalu rendah'),
         ],
       ),
       DataKompresor(
@@ -818,7 +746,6 @@ final dataKompresor = <DataKompresor>[
             'Kebocoran liquid line pada heat exchanger antara saluran liquid dan saluran suction.',
         tiles: [
           DataKompresor(title: 'Ganti heat exchanger'),
-          DataKompresor(title: 'Temperatur gas suction terlalu rendah'),
         ],
       ),
     ],
@@ -832,7 +759,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Sesuaikan atau ganti kontrol tekanan rendah KP 1 atau kontrol tekanan gabungan KP 15.'),
-          DataKompresor(title: 'Berjalan terus menerus'),
         ],
       ),
       DataKompresor(
@@ -841,7 +767,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Temukan kesalahan pada saluran antara penerima dan saluran hisap'),
-          DataKompresor(title: 'Temperatur saluran discharge terlalu tinggi'),
         ],
       ),
       DataKompresor(
@@ -850,7 +775,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Temukan kesalahan pada saluran antara penerima dan saluran hisap'),
-          DataKompresor(title: 'Temperatur saluran discharge terlalu tinggi'),
         ],
       ),
       DataKompresor(
@@ -859,7 +783,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Ganti pelat katup kompresor (semi hermetik) atau kompresor (hermetik).'),
-          DataKompresor(title: 'Temperatur saluran discharge terlalu tinggi'),
         ],
       ),
       DataKompresor(
@@ -869,7 +792,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Abaikan heat exchanger atau mungkin pilih heat exchanger yang lebih kecil.'),
-          DataKompresor(title: 'Temperatur saluran discharge terlalu tinggi'),
         ],
       ),
       DataKompresor(
@@ -878,7 +800,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Bersihkan kondensor. Periksa apakah kipas kondensor bekerja (kondensor berpendingin udara) atau pompa bekerja (kondensor berpendingin air). Jika tidak, ganti kipas/pompa'),
-          DataKompresor(title: 'Temperatur saluran discharge terlalu tinggi'),
         ],
       ),
       DataKompresor(
@@ -887,14 +808,12 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Menetapkan pengaturan kapasitas atau meningkatkan diferensial kontrol tekanan rendah,'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Refrigeran di penerima tidak mencukupi',
         tiles: [
           DataKompresor(title: 'Tambah refrigeran'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
@@ -903,63 +822,54 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Perpendek saluran liquid (tempat lain untuk kondensor/penerima) - jika tidak memungkinkan, paling tidak pasang saluran liquid yang lebih besar.'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Liquid line terlalu kecil',
         tiles: [
           DataKompresor(title: 'Pasang saluran liquid yang lebih besar'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Tikungan tajam dll. pada liquid line',
         tiles: [
           DataKompresor(title: 'Gunakan tikungan yang lebih halus'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Filter drier tersumbat sebagian',
         tiles: [
           DataKompresor(title: 'Ganti filter drier'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Katup solenoid macet.',
         tiles: [
           DataKompresor(title: 'Ganti/cuci solenoid valve'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Subcooling cairan tidak memadai.',
         tiles: [
           DataKompresor(title: 'Tambahkan internal heat exchanger'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Kesalahan pada katup termal',
         tiles: [
           DataKompresor(title: 'Ganti katup ekspansi termostatik'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Evaporator terlalu kecil.',
         tiles: [
           DataKompresor(title: 'Ganti evaporator yang lebih besar'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
         title: 'Kipas evaporator rusak',
         tiles: [
           DataKompresor(title: 'Ganti atau betulkan kipas'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
@@ -968,7 +878,6 @@ final dataKompresor = <DataKompresor>[
         tiles: [
           DataKompresor(
               title: 'Jika perlu, ganti evaporator dan/atau saluran suction'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
@@ -977,7 +886,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Tetapkan sistem defrost atau sesuaikan defrost prosedur.'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
@@ -986,7 +894,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Tingkatkan konsentrasi air garam dan periksa peralatan pelindung embun beku'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
@@ -995,7 +902,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Periksa motor kipas evaporator atau pompa (sisi evaporator). Ganti jika rusak.'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
       DataKompresor(
@@ -1004,7 +910,6 @@ final dataKompresor = <DataKompresor>[
           DataKompresor(
               title:
                   'Ratakan evaporator dan hindari perangkap minyak. Tambahkan perangkap-u setiap 3 m jika garis hisap memanjang lurus ke atas.'),
-          DataKompresor(title: 'Pengoperasian normal atau siklus kompresor'),
         ],
       ),
     ],

@@ -1,6 +1,7 @@
 import 'package:bang_tiar/trouble/alat_ekspansi/masalahEkspansi.dart';
 import 'package:bang_tiar/trouble/kompresor/masalahKompresor.dart';
 import 'package:bang_tiar/trouble/evaporator/masalahEvaporator.dart';
+import 'package:bang_tiar/trouble/kondensor/masalahKondensor.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
@@ -107,7 +108,7 @@ class _TroublePageState extends State<TroublePage> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => MasalahKompresorPage()),
+                            builder: (context) => MasalahKondensorPage()),
                       );
                     } else if (index == 2) {
                       Navigator.push(

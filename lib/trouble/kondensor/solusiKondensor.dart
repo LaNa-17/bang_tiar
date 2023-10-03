@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:bang_tiar/data/dataKompresor.dart';
+import 'package:bang_tiar/data/dataKondensor.dart';
 
-class SolusiKompresorPage extends StatelessWidget {
+class SolusiKondensorPage extends StatelessWidget {
   final int masalah, penyebab;
-  const SolusiKompresorPage(
+  const SolusiKondensorPage(
       {required this.masalah, required this.penyebab, super.key});
 
   @override
@@ -23,7 +23,7 @@ class SolusiKompresorPage extends StatelessWidget {
       body: Container(
         child: ListView.builder(
           shrinkWrap: true,
-          itemCount: dataKompresor[masalah].tiles[penyebab].tiles.length,
+          itemCount: dataKondensor[masalah].tiles[penyebab].tiles.length,
           itemBuilder: (context, solusi) {
             return InkWell(
               onTap: () {},
@@ -32,28 +32,25 @@ class SolusiKompresorPage extends StatelessWidget {
                   SizedBox(
                     height: 15,
                   ),
-                  Container(
-                    width: double.infinity,
-                    child: Card(
-                      margin: EdgeInsets.only(left: 10, right: 10),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20),
-                      ),
-                      // color: Colors.black,
-                      child: Container(
-                        padding: EdgeInsets.all(15),
-                        child: Text(
-                          dataKompresor[masalah]
-                              .tiles[penyebab]
-                              .tiles[solusi]
-                              .title,
-                          style: TextStyle(
-                            fontSize: 20,
-                          ),
+                  Card(
+                    margin: EdgeInsets.only(left: 10, right: 10),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    // color: Colors.black,
+                    child: Container(
+                      padding: EdgeInsets.all(15),
+                      child: Text(
+                        dataKondensor[masalah]
+                            .tiles[penyebab]
+                            .tiles[solusi]
+                            .title,
+                        style: TextStyle(
+                          fontSize: 20,
                         ),
                       ),
                     ),
-                  )
+                  ),
                 ],
               ),
             );

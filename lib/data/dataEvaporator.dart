@@ -18,7 +18,6 @@ final dataEvaporator = <DataEvaporator>[
           DataEvaporator(
               title:
                   'Pasang sistem pencairan es atau sesuaikan prosedur pencairan es,'),
-          DataEvaporator(title: 'Evaporator Tersumbat Oleh Embun Beku'),
         ],
       ),
       DataEvaporator(
@@ -27,7 +26,6 @@ final dataEvaporator = <DataEvaporator>[
           DataEvaporator(
               title:
                   'Merekomendasikan pengemasan barang atau menyesuaikan prosedur pencairan es'),
-          DataEvaporator(title: 'Evaporator Tersumbat Oleh Embun Beku'),
         ],
       ),
       DataEvaporator(
@@ -37,14 +35,12 @@ final dataEvaporator = <DataEvaporator>[
           DataEvaporator(
               title:
                   'Memperbaiki celah. Merekomendasikan agar pintu tetap tertutup, atau jika perlu dibuka, pasang tirai strip plastik tambahan.'),
-          DataEvaporator(title: 'Evaporator Tersumbat Oleh Embun Beku'),
         ],
       ),
       DataEvaporator(
         title: 'Sirip berubah bentuk',
         tiles: [
           DataEvaporator(title: 'Luruskan sirip menggunakan sisir sirip'),
-          DataEvaporator(title: 'Evaporator Rusak'),
         ],
       ),
       DataEvaporator(
@@ -54,8 +50,6 @@ final dataEvaporator = <DataEvaporator>[
           DataEvaporator(
               title:
                   'Periksa apakah lubang yang lebih besar akan menurunkan panas berlebih dan menampilkan gambar yang lebih konstan (aplikasi pendingin) atau tanpa lapisan es (AC).'),
-          DataEvaporator(
-              title: 'Saluran Masuk Evaporator Beku dan TXV Tertutup Es '),
         ],
       ),
       DataEvaporator(
@@ -65,8 +59,6 @@ final dataEvaporator = <DataEvaporator>[
           DataEvaporator(
               title:
                   'Atur katup ekspansi termostatik ke suhu yang lebih rendah pengaturan panaskan.'),
-          DataEvaporator(
-              title: 'Saluran Masuk Evaporator Beku dan TXV Tertutup Es '),
         ],
       ),
       DataEvaporator(
@@ -76,8 +68,6 @@ final dataEvaporator = <DataEvaporator>[
           DataEvaporator(
               title:
                   'Jika muatan atau sebagian besarnya hilang, pemanasan bohlam tidak akan membuka katup (jika muatan penuh masih ada maka akan terbuka (katup tanpa MOP)). Ubah opsi ekspansi jika daya hilang.'),
-          DataEvaporator(
-              title: 'Saluran Masuk Evaporator Beku dan TXV Tertutup Es '),
         ],
       ),
       DataEvaporator(
@@ -87,8 +77,6 @@ final dataEvaporator = <DataEvaporator>[
           DataEvaporator(
               title:
                   'Saat mengganti/melepas lubang, periksa apakah ada kotoran yang menyumbat katup – bersihkan.'),
-          DataEvaporator(
-              title: 'Saluran Masuk Evaporator Beku dan TXV Tertutup Es '),
         ],
       ),
       DataEvaporator(
@@ -98,8 +86,6 @@ final dataEvaporator = <DataEvaporator>[
           DataEvaporator(
               title:
                   'Lakukan hair drier test pada katup ekspansi (badan, dekat lubang). Jika setelah itu unit berjalan sempurna untuk beberapa waktu, mungkin terjadi pembentukan es di bagian dalam lubang. Jika berupa es, gantilah refrigeran dan pengering atau paling tidak filterdryer (bila perlu lebih dari satu kali),'),
-          DataEvaporator(
-              title: 'Saluran Masuk Evaporator Beku dan TXV Tertutup Es '),
         ],
       ),
       DataEvaporator(
@@ -107,8 +93,6 @@ final dataEvaporator = <DataEvaporator>[
             'Pasokan zat pendingin ke evaporator terlalu sedikit karena kesalahan yang dijelaskan pada bagian "Gelembung uap di kaca penglihatan".',
         tiles: [
           DataEvaporator(title: 'Lihat "Gelembung uap di kaca penglihatan".'),
-          DataEvaporator(
-              title: 'Saluran Masuk Evaporator Beku dan TXV Tertutup Es '),
         ],
       ),
       DataEvaporator(
@@ -116,8 +100,6 @@ final dataEvaporator = <DataEvaporator>[
             'Pasokan refrigeran ke evaporator terlalu kecil karena cacat TXV',
         tiles: [
           DataEvaporator(title: 'Ganti katup ekspansi termostatik.'),
-          DataEvaporator(
-              title: 'Saluran Masuk Evaporator Beku dan TXV Tertutup Es '),
         ],
       ),
     ],

@@ -1,12 +1,13 @@
-import 'package:bang_tiar/data/dataEkspansi.dart';
-import 'package:bang_tiar/trouble/alat_ekspansi/PenyebabEkspansi.dart';
+import 'package:bang_tiar/data/dataKondensor.dart';
+import 'package:bang_tiar/trouble/kondensor/PenyebabKondensor.dart';
+import 'package:bang_tiar/trouble/kondensor/solusiKondensor.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
 
-class MasalahEkspansiPage extends StatelessWidget {
-  const MasalahEkspansiPage({super.key});
+class MasalahKondensorPage extends StatelessWidget {
+  const MasalahKondensorPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,15 +16,15 @@ class MasalahEkspansiPage extends StatelessWidget {
         headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
           return <Widget>[
             SliverAppBar(
-              // title: Text('Ekspansi'),
+              // title: Text('Kondensor'),
               expandedHeight: 300,
               pinned: true,
               floating: true,
               // backgroundColor: Colors.grey,
               flexibleSpace: FlexibleSpaceBar(
-                title: Text('Alat Ekspansi'),
+                title: Text('Kondensor'),
                 background: Image.asset(
-                  'assets/alat_ekspansi.png',
+                  'assets/kondensor.png',
                   // fit: BoxFit.cover,
                 ),
               ),
@@ -33,14 +34,14 @@ class MasalahEkspansiPage extends StatelessWidget {
         body: Container(
           child: ListView.builder(
             shrinkWrap: true,
-            itemCount: dataEkspansi.length,
+            itemCount: dataKondensor.length,
             itemBuilder: (context, masalah) {
               return InkWell(
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => PenyebabEkspansiPage(
+                      builder: (context) => PenyebabKondensorPage(
                         masalah: masalah,
                       ),
                     ),
@@ -55,7 +56,7 @@ class MasalahEkspansiPage extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.all(15),
                     child: Text(
-                      dataEkspansi[masalah].title,
+                      dataKondensor[masalah].title,
                       style: TextStyle(
                         fontSize: 20,
                       ),
@@ -67,8 +68,22 @@ class MasalahEkspansiPage extends StatelessWidget {
           ),
         ),
         // body: ListView(
-        //   children: dataEkspansi.map(buildTile).toList(),
+        //   children: dataKondensor.map(buildTile).toList(),
         // ),
+      ),
+    );
+  }
+
+  Widget buildTile(DataKondensor tile) {
+    return Card(
+      // margin: EdgeInsets.only(top: 15, right: 15, left: 15),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(20),
+      ),
+      color: Color(0xff7b7574),
+      child: ExpansionTile(
+        title: Text(tile.title),
+        children: tile.tiles.map((tile) => buildTile(tile)).toList(),
       ),
     );
   }
