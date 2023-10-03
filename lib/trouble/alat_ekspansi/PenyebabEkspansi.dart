@@ -13,7 +13,7 @@ class PenyebabEkspansiPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 70,
-        title: Text('Penyebab Masalah'),
+        title: Text('Solusi'),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.vertical(
             bottom: Radius.circular(25),
