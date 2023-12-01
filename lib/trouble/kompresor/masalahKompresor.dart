@@ -1,10 +1,7 @@
 import 'package:bang_tiar/data/dataKompresor.dart';
 import 'package:bang_tiar/trouble/kompresor/PenyebabKompresor.dart';
-import 'package:bang_tiar/trouble/kompresor/solusiKompresor.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
-import 'package:awesome_dialog/awesome_dialog.dart';
 
 class MasalahKompresorPage extends StatelessWidget {
   const MasalahKompresorPage({super.key});

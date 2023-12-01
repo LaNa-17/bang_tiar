@@ -1,7 +1,6 @@
 import 'package:bang_tiar/perhitungan/kapasitasPK.dart';
 import 'package:bang_tiar/perhitungan/konversiSuhu.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
 
 class PerhitunganPage extends StatelessWidget {

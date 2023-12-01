@@ -1,6 +1,5 @@
 import 'package:bang_tiar/trouble/kondensor/solusiKondensor.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
 import 'package:bang_tiar/data/dataKondensor.dart';
 

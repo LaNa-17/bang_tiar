@@ -3,7 +3,6 @@ import 'package:bang_tiar/trouble/kompresor/masalahKompresor.dart';
 import 'package:bang_tiar/trouble/evaporator/masalahEvaporator.dart';
 import 'package:bang_tiar/trouble/kondensor/masalahKondensor.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
 import 'package:vertical_card_pager/vertical_card_pager.dart';
 

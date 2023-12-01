@@ -1,6 +1,5 @@
 import 'package:bang_tiar/trouble/evaporator/solusiEvaporator.dart';
 import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:flutter/material.dart';
 import 'package:bang_tiar/data/dataEvaporator.dart';
 
