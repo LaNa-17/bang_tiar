@@ -22,7 +22,8 @@ final dataEkspansi = <DataEkspansi>[
     title: 'Terdapat Masalah Pada Bohlam Penginderaan',
     tiles: [
       DataEkspansi(
-        title: '',
+        title:
+            'Cek apakah bohlam penginderaan sudah dipasang dengan kencang . Apabila bohlam dirasa sudah rusak maka laukan penggantian.',
       )
     ],
   ),
