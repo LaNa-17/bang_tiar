@@ -1,3 +1,4 @@
+import 'package:bang_tiar/sop/sop.dart';
 import 'package:bang_tiar/trouble/trouble.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -18,8 +19,8 @@ class _MenuState extends State<Menu> {
   List<Widget> _buildScreens() {
     return [
       PerhitunganPage(),
-      // Screen(),
       TroublePage(),
+      SopPage(),
     ];
   }
 
@@ -42,6 +43,12 @@ class _MenuState extends State<Menu> {
       // ),
       PersistentBottomNavBarItem(
         icon: const Icon(Icons.settings),
+        title: ("Troubleshooting"),
+        activeColorPrimary: Colors.white,
+        inactiveColorPrimary: Colors.grey[400],
+      ),
+      PersistentBottomNavBarItem(
+        icon: const Icon(Icons.add_box),
         title: ("Troubleshooting"),
         activeColorPrimary: Colors.white,
         inactiveColorPrimary: Colors.grey[400],
