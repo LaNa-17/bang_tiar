@@ -1,7 +1,6 @@
-import 'package:bang_tiar/sop/ac_handling/langkahAcHandling.dart';
+import 'package:bang_tiar/sop/air_handling/langkahAirHandling.dart';
 import 'package:bang_tiar/sop/ac_split/langkahAcSplit.dart';
 import 'package:bang_tiar/sop/chiller/langkahChiller.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
 import 'package:vertical_card_pager/vertical_card_pager.dart';
 
@@ -93,7 +92,7 @@ class _SopPageState extends State<SopPage> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => LangkahAcHandling()),
+                            builder: (context) => LangkahAirHandling()),
                       );
                     } else if (index == 2) {
                       Navigator.push(

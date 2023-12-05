@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:bang_tiar/data/sop/dataAcSplit.dart';
+import 'package:bang_tiar/data/sop/dataAirHandling.dart';
 
-class LangkahAcSplit extends StatelessWidget {
-  const LangkahAcSplit({super.key});
+class LangkahAirHandling extends StatelessWidget {
+  const LangkahAirHandling({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +29,7 @@ class LangkahAcSplit extends StatelessWidget {
         body: Container(
           child: ListView.builder(
             shrinkWrap: true,
-            itemCount: dataAcSplit.length,
+            itemCount: dataAirHandling.length,
             itemBuilder: (context, langkah) {
               return InkWell(
                 onTap: () {},
@@ -42,7 +42,7 @@ class LangkahAcSplit extends StatelessWidget {
                   child: Container(
                     padding: EdgeInsets.all(15),
                     child: Text(
-                      dataAcSplit[langkah].title,
+                      dataAirHandling[langkah].title,
                       style: TextStyle(
                         fontSize: 20,
                       ),

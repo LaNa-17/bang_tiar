@@ -1,6 +1,5 @@
 import 'package:bang_tiar/data/dataEkspansi.dart';
 import 'package:bang_tiar/trouble/alat_ekspansi/PenyebabEkspansi.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
 
 class MasalahEkspansiPage extends StatelessWidget {
@@ -64,9 +63,6 @@ class MasalahEkspansiPage extends StatelessWidget {
             },
           ),
         ),
-        // body: ListView(
-        //   children: dataEkspansi.map(buildTile).toList(),
-        // ),
       ),
     );
   }
