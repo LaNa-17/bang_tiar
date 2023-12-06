@@ -17,9 +17,9 @@ class LangkahAcSplit extends StatelessWidget {
               floating: true,
               // backgroundColor: Colors.grey,
               flexibleSpace: FlexibleSpaceBar(
-                title: Text('Alat Ekspansi'),
+                title: Text('AC Split'),
                 background: Image.asset(
-                  'assets/alat_ekspansi.png',
+                  'assets/ac_split.png',
                   // fit: BoxFit.cover,
                 ),
               ),

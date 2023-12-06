@@ -17,9 +17,9 @@ class LangkahChiller extends StatelessWidget {
               floating: true,
               // backgroundColor: Colors.grey,
               flexibleSpace: FlexibleSpaceBar(
-                title: Text('Alat Ekspansi'),
+                title: Text('Chiller'),
                 background: Image.asset(
-                  'assets/alat_ekspansi.png',
+                  'assets/chiller.png',
                   // fit: BoxFit.cover,
                 ),
               ),

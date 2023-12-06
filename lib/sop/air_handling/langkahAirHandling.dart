@@ -1,3 +1,4 @@
+import 'package:bang_tiar/sop/air_handling/prosedurAirHandling.dart';
 import 'package:flutter/material.dart';
 import 'package:bang_tiar/data/sop/dataAirHandling.dart';
 
@@ -17,9 +18,9 @@ class LangkahAirHandling extends StatelessWidget {
               floating: true,
               // backgroundColor: Colors.grey,
               flexibleSpace: FlexibleSpaceBar(
-                title: Text('Alat Ekspansi'),
+                title: Text('Air Handling Unite'),
                 background: Image.asset(
-                  'assets/alat_ekspansi.png',
+                  'assets/air_handling.png',
                   // fit: BoxFit.cover,
                 ),
               ),
@@ -32,7 +33,18 @@ class LangkahAirHandling extends StatelessWidget {
             itemCount: dataAirHandling.length,
             itemBuilder: (context, langkah) {
               return InkWell(
-                onTap: () {},
+                onTap: () {
+                  if (langkah == 0) {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ProsedurAirHandling(
+                          langkah: langkah,
+                        ),
+                      ),
+                    );
+                  }
+                },
                 child: Card(
                   margin: EdgeInsets.only(left: 10, right: 10, bottom: 15),
                   shape: RoundedRectangleBorder(

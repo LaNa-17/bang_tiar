@@ -13,9 +13,9 @@ class SopPage extends StatefulWidget {
 
 class _SopPageState extends State<SopPage> {
   final List<String> titles = [
-    "AC Split",
     "AIR HANDLING",
     "CHILLER",
+    "AC SPLIT",
   ];
 
   final List<Widget> images = [
@@ -26,7 +26,7 @@ class _SopPageState extends State<SopPage> {
       color: Color(0xff7b7574),
       child: ClipRRect(
         child: Image.asset(
-          'assets/air_handling.jpg',
+          'assets/air_handling.png',
           // fit: BoxFit.cover,
         ),
       ),
@@ -38,7 +38,7 @@ class _SopPageState extends State<SopPage> {
       color: Color(0xff7b7574),
       child: ClipRRect(
         child: Image.asset(
-          'assets/chiller.jpg',
+          'assets/chiller.png',
           // fit: BoxFit.cover,
         ),
       ),
@@ -50,7 +50,7 @@ class _SopPageState extends State<SopPage> {
       color: Color(0xff7b7574),
       child: ClipRRect(
         child: Image.asset(
-          'assets/ac_split.jpg',
+          'assets/ac_split.png',
           // fit: BoxFit.cover,
         ),
       ),
@@ -86,19 +86,19 @@ class _SopPageState extends State<SopPage> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => LangkahAcSplit()),
+                            builder: (context) => LangkahAirHandling()),
                       );
                     } else if (index == 1) {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => LangkahAirHandling()),
+                            builder: (context) => LangkahChiller()),
                       );
                     } else if (index == 2) {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => LangkahChiller()),
+                            builder: (context) => LangkahAcSplit()),
                       );
                     }
                   },
